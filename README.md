@@ -1,3 +1,4 @@
+````markdown
 # TIM: Temporal Interference Memory
 
 ### Quantum-Inspired Hyperdimensional Search Engine
@@ -64,3 +65,59 @@ Search space: 2.87E+026 combinations
 == Search Results ==
 Match: bwcnnh131ockg.com
 Fidelity: 100.00% | Resonance: 1.00 | Exact: True
+````
+
+-----
+
+## 📂 Project Structure
+
+```text
+TIM-Vector-Search/
+├── src/
+│   ├── TimCore/           # Core wave encoding logic & VSA Math
+│   ├── Kernels/           # Custom OpenCL (.cl) GPU Kernels
+│   └── TimShield/         # Cybersecurity implementation (Phishing/Malware)
+├── benchmarks/            # Python vs C# comparison scripts
+├── assets/                # Benchmark graphs
+├── README.md
+└── LICENSE
+```
+
+## 🚀 Getting Started
+
+### Requirements
+
+  * .NET 6.0 SDK or higher
+  * OpenCL-capable GPU (NVIDIA / AMD / Intel Arc)
+  * **Cloo** (OpenCL wrapper for .NET)
+
+### Build & Run
+
+```bash
+# Clone the repository
+git clone [https://github.com/AlexJusBtr/TIM-Vector-Search.git](https://github.com/AlexJusBtr/TIM-Vector-Search.git)
+
+# Restore NuGet packages
+dotnet restore
+
+# Run the cybersecurity demo
+cd src/TimShield
+dotnet run
+```
+
+-----
+
+## 🔮 Future Roadmap (TIM-BLAST)
+
+Currently adapting the engine for Bioinformatics.
+
+  * **Goal:** Replace BLAST for high-throughput DNA fragment matching.
+  * **Technique:** Using codon-specific phase shifting to detect gene variants with \>99% recall speedup.
+
+-----
+
+**Author:** [AlexJusBtr]
+*Licensed under MIT License*
+
+```
+```
