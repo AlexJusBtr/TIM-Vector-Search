@@ -71,20 +71,6 @@ Fidelity: 100.00% | Resonance: 1.00 | Exact: True
 
 ---
 
-## 📂 Project Structure
-
-```text
-TIM-Vector-Search/
-├── src/
-│   ├── TimCore/           # Core wave encoding logic & VSA Math
-│   ├── Kernels/           # Custom OpenCL (.cl) GPU Kernels
-│   └── TimShield/         # Cybersecurity implementation (Phishing/Malware)
-├── benchmarks/            # Python vs C# comparison scripts
-├── assets/                # Benchmark graphs
-├── README.md
-└── LICENSE
-```
-
 ## 🚀 Getting Started
 
 ### Requirements
