@@ -10,7 +10,7 @@ TIM (Temporal Interference Memory) is a GPU-accelerated fuzzy search engine that
 
 Currently adapting the engine for Bioinformatics.
 
-* **Goal:** Replace BLAST for high-throughput DNA fragment matching.
+* **Goal:** Try and make a BLAST alternative for high-throughput DNA fragment matching.
 * **Technique:** Using codon-specific phase shifting to detect gene variants with >99% recall speedup.
 
 ---
